@@ -1,0 +1,30 @@
+<section class="hero is-fullheight about-bg">
+
+  <div class="hero-body">
+    <div class="container">
+
+      <!-- Presentación alineada a la izquierda -->
+      <div class="mb-6">
+        <h1 class="title is-2 has-text-white ">Bufete Ramírez Jiménez</h1>
+        <p class="is-size-5 has-text-white ">
+          Somos un bufete con más de 20 años de experiencia ofreciendo asesoría legal confiable y eficaz.<br>
+          Hemos trabajado exitosamente en cientos de casos en distintas áreas del derecho, comprometidos siempre
+          con la excelencia, el profesionalismo y la ética.
+        </p>
+      </div>
+
+      <!-- Carrusel de testimonios -->
+      <div class="slider-container is-relative">
+        <button class="arrow left" (click)="moveLeft()">❮</button>
+        <div class="slider" [ngStyle]="{ transform: 'translateX(-' + currentIndex * cardWidth + 'px)' }">
+          <div class="testimonial-card" *ngFor="let testimonio of testimonios">
+            <p class="has-text-weight-semibold has-text-black ">{{ testimonio.nombre }}</p>
+            <p class="has-text-black ">"{{ testimonio.mensaje }}"</p>
+          </div>
+        </div>
+        <button class="arrow right" (click)="moveRight()">❯</button>
+      </div>
+
+    </div>
+  </div>
+</section>

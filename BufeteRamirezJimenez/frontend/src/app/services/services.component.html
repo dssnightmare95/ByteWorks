@@ -1,0 +1,17 @@
+<section class="hero is-fullheight services-bg">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-multiline">
+        <div class="column is-4" *ngFor="let service of services">
+          <div class="box service-box">
+            <div style="display: flex; justify-content: center;">
+              <img [src]="service.iconUrl" alt="" style="width: 150px; margin-bottom: 0.5rem;">
+            </div>
+            <h2 class="subtitle has-text-weight-bold has-text-centered ">{{ service.title }}</h2>
+            <p >{{ service.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

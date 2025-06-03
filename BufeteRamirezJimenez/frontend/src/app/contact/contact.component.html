@@ -1,0 +1,58 @@
+<section class="hero is-fullheight contact-bg">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns is-8 is-variable">
+        <div class="column is-two-thirds has-text-left">
+          <h1 class="title is-1 has-text-white">¿Tiene alguna duda o necesita asesoría legal?</h1>
+          <p class="is-size-4 has-text-white">
+            No dude en comunicarse con nosotros a través de 
+            este formulario o por nuestros canales digitales. Estamos para atenderle con la seriedad 
+            y confidencialidad que su caso merece.
+          </p>
+          <div class="social-media">
+            <a href="https://wa.me/50683190875" target="_blank" class="button is-light is-large">
+              <img src="/images/whatsapp.svg" alt="WhatsApp" style="width: 32px; height: 32px;">
+            </a>
+          </div>
+        </div>
+
+        <!-- Formulario conectado a Formspree -->
+        <div class="column is-one-third has-text-left">
+          <form 
+            action="https://formspree.io/f/xjkrvjko" 
+            method="POST" 
+            target="_blank"
+          >
+            <div class="field">
+              <label class="label has-text-white">Nombre</label>
+              <div class="control">
+                <input class="input is-medium" type="text" name="nombre" required>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label has-text-white">Correo electrónico</label>
+              <div class="control">
+                <input class="input is-medium" type="email" name="email" required>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label has-text-white">Mensaje</label>
+              <div class="control">
+                <textarea class="textarea is-medium" name="mensaje" required></textarea>
+              </div>
+            </div>
+
+            <div class="control">
+              <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">
+                Enviar mensaje
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
