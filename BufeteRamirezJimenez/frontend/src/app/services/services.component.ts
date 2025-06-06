@@ -36,8 +36,8 @@ services = [
     iconUrl: '/icons/build.gif'
   },
   {
-    title: 'Cobro Judicial y Administrativo',
-    description: 'Gestionamos el cobro de deudas a través de procesos judiciales y administrativos, con eficiencia y respeto a la legalidad costarricense.',
+    title: 'Cobro Judicial',
+    description: 'Gestionamos el cobro de deudas a través de procesos judiciales, con eficiencia y respeto a la legalidad costarricense.',
     iconUrl: '/icons/money.gif'
   }
 ];

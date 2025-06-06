@@ -1,49 +1,47 @@
 <section class="hero is-small body-bg">
-    <div class="hero-body">
-        <div class="container is-flex is-align-items-center is-justify-content-space-between">
-            <div class="is-flex is-align-items-center">
-                <div>
-                    <h1 class="has-text-centered has-text-white">
-                        Ubicación
-                    </h1>
-                    <h3 class="has-text-left has-text-white">
-                        De Ferreteria 3R, 150m al este<br>
-                        Cariari, Pococi, Limón, Costa Rica
-                    </h3>
-                </div>
-            </div>
-
-            <div class="is-flex is-align-items-center">
-                <div>
-                    <h1 class=" has-text-centered has-text-white">
-                        Información de Contacto
-                    </h1>
-                    <h3 class=" has-text-centered has-text-white">
-                        📞 Telefono de oficina: +506 2710 1234<br>
-                        📱 Telefono celular: +506 8888 8888<br>
-                        📧 Correo electrónico: ejemplo&#64;ejemplo.com<br>
-                        <embed src="/images/whatsapp.svg" type="image/svg+xml" style="height: 16px; width: 16px; margin-right: 3px; margin-left: 2px;"> Whatsapp: +506 8888 8888
-                    </h3>
-                </div>
-            </div>
-
-            <div class="is-flex is-align-items-center has-text-centered">
-                <div class="container">
-                    <ul>
-                    <li><a routerLink="/home" routerLinkActive="is-active" class="has-text-white">Inicio</a></li>
-                    <li><a routerLink="/about" routerLinkActive="is-active" class="has-text-white">Sobre Nosotros</a></li>
-                    <li><a routerLink="/services" routerLinkActive="is-active" class="has-text-white">Servicios</a></li>
-                    <li><a routerLink="/contact" routerLinkActive="is-active" class="has-text-white">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-variable is-6 is-multiline is-vcentered">
+        <!-- Columna: Ubicación -->
+        <div class="column is-6-desktop is-12-mobile">
+          <h2 class="subtitle has-text-white has-text-centered">Ubicación</h2>
+          <div class="has-text-centered">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4721.968665968439!2d-83.73921612420355!3d10.3616098897631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0b1eba3ba2a37%3A0xa91dc8949d0b6d57!2sBufete%20Ram%C3%ADrez%20Vargas!5e1!3m2!1ses!2scr!4v1749164274097!5m2!1ses!2scr" 
+              width="350" 
+              height="225" 
+              style="border:0; border-radius: 10px;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
         </div>
-    </div>
-    <div class="hero-foot is-flex is-align-items-center is-justify-content-space-between  has-text-centered">
-        <div class="container">
-            <p class="has-text-white">
-                © 2025 Bufete Ramirez Jimenez. Todos los derechos reservados.<br> 🧑‍💻 Design by ByteWorks
+
+        <!-- Columna: Contacto -->
+        <div class="column is-6-desktop is-12-mobile">
+          <h2 class="subtitle has-text-white has-text-centered">Información de Contacto</h2>
+          <div class="has-text-white has-text-centered">
+            <p>📞 Teléfono de oficina: +506 2767-7474</p>
+            <p>📱 Teléfono celular: +506 8888 8888</p>
+            <p>📧 Correo electrónico: ejemplo&#64;ejemplo.com</p>
+            <p>
+              <img src="/images/whatsapp.svg" alt="Whatsapp" style="height: 16px; width: 16px; vertical-align: middle; margin-right: 5px;">
+              Whatsapp: +506 8888 8888
             </p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="hero-foot">
+    <div class="container has-text-centered">
+      <p class="has-text-white">
+        © 2025 Bufete Ramirez Jimenez. Todos los derechos reservados.<br>
+        🧑‍💻 Design by ByteWorks
+      </p>
+    </div>
+  </div>
 </section>
